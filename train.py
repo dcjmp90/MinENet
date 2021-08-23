@@ -38,4 +38,4 @@ def _main(train, validate, util):
 if __name__ == '__main__':
     cityscape = CityScape()
     train_data, validate_data = cityscape.create_dataset()
-    _main(train_data, validate_data, cityscape) 
+    _main(train_data, validate_data, cityscape)
